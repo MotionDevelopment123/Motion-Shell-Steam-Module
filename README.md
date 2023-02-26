@@ -1,5 +1,5 @@
 # SDL (Steam Deck Launcher)
-###### BETA - STABLE COMING by 01/03/2023
+###### BETA
 
 SDL can be used to open the new Steam Deck UI on Windows PC's and making it feel native by settings the Shell to Steam, when logging out for convience you will be returned to the Login screen.
 
@@ -14,3 +14,10 @@ This version will install SDL wihtout making the needed chnage to the registry. 
 
 ### SDLSL (Shortcut Launcher)
 The installer inlcudes the required files to use SDSL. SDSL allows for any number of shortcuts to be launched when the account logs in, this can be useful for opening media apps such as Spotify and utilities such as Google Drive, DSX.
+
+# EXPLAINING THE VERSION SCHEME
+The version number is split into 3, such as at time of writing the latest beta build version : 0.2.5, each  number relates to the following
+
+- 0 - Stable branch long term version - the first digit tells you the main version it is based on.
+- 2 - Stable branch incremental update - Minor updates to the version such as bug fixes or small festures.
+- 5 - BETA branch - this is for beta builds, a beta build can be from 1 - 9, due to how small the program is i would not recomend installing the betas as they are just me testing so may not work or the installer may be "bare bones".
