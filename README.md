@@ -1,4 +1,4 @@
-# SDL
-## Launcher for Steam Deck design that also logs Windows user out upon closure to be used as shell replacement
+# SDL (Steam Deck Launcher)
+ Version: 1.0.0
 
-# more info coming 27/02/2023 GMT
+SDL can be used to open the new Steam Deck UI on Windows PC's and making it feel native by settings the Shell to Steam, when logging out for convience you will be returned to the Login screen.
