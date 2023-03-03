@@ -21,3 +21,9 @@ The version number is split into 3, such as at time of writing the latest beta b
 - 0 - Stable branch long term version - the first digit tells you the main version it is based on.
 - 2 - Stable branch incremental update - Minor updates to the version such as bug fixes or small festures.
 - 5 - BETA branch - this is for beta builds, a beta build can be from 1 - 9, due to how small the program is i would not recomend installing the betas as they are just me testing so may not work or the installer may be "bare bones".
+
+### Upcoming
+- BETA Version: 1.0.1 Preparing for STABLE version 1.5.0
+- BETA Version: 1.0.2
+- STABLE Version: 1.5.0 split main directory into 2 version, reg and nonreg.
+update nonreg version to be more like a program
