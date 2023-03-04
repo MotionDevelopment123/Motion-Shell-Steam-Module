@@ -1,4 +1,4 @@
-curl -O https://raw.githubusercontent.com/MotionDevelopment123/SDL/STABLE-VERSION/Update/LATEST.VERSION
+curl -O https://raw.githubusercontent.com/MotionDevelopment123/SDL/BETA-VERSION/Update/Latest%20Version/LATEST.VERSION
 SET /P LATEST=<LATEST.VERSION
 SET /P CURRENT=<CURRENT.VERSION
 ECHO LATEST:%LATEST%
