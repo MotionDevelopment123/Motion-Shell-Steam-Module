@@ -36,7 +36,7 @@ SolidCompression=yes
 WizardStyle=modern
 
 [Registry]
-Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; ValueType: string; ValueName: "shell"; ValueData: "C:\Program Files\SDL\SDL.exe"
+Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; ValueType: string; ValueName: "shell"; ValueData: "C:\Program Files\SDL\SDLSHELL.exe"
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
