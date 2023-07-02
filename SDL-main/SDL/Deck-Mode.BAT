@@ -1,0 +1,1 @@
+Taskkill /im EXPLORER.EXE
