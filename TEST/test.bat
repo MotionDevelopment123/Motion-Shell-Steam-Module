@@ -1,7 +1,0 @@
-PAUSE
-
-SET /P LOCATION = CALL test.vbs
-
-ECHO %LOCATION%
-
-PAUSE
