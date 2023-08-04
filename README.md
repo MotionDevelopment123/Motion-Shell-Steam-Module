@@ -1,5 +1,5 @@
+###### STABLE
 # SDL (Steam Deck Launcher)
-##### BETA
 
 ###### SDL can be used to turn your Windows PC into a Steam Deck. By replacing the Windows Shell with the new big picture mode from Steam this provides a experance similar to what you would find using a Steam Deck.
 
