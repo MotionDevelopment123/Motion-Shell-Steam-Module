@@ -1,6 +1,5 @@
 @ECHO OFF
-set /p SDL-LOCATION=<C:\"Steam Deck Launcher"
-CD %SDL-Location%
+CD C:\"Steam Deck Launcher"
 set /p STEAMLOCATION=<STEAM.LOCATION
 START /WAIT %STEAMLOCATION% -noverifyfiles -gamepadui
 set /p CLOSEDLOCATION=<CLOSED.LOCATION

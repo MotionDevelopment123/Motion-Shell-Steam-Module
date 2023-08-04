@@ -38,9 +38,6 @@ Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; Val
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
-[Tasks]
-Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-
 [Files]
 Source: "C:\Shared Folder\GitHub\SDL\SDL\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Shared Folder\GitHub\SDL\SDL\CLOSED.LOCATION"; DestDir: "{app}"; Flags: ignoreversion
@@ -51,7 +48,6 @@ Source: "C:\Shared Folder\GitHub\SDL\SDL\STEAM.LOCATION"; DestDir: "{app}"; Flag
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: shellexec postinstall skipifsilent
