@@ -1,0 +1,1 @@
+x=msgbox("SDL is updating" ,64, "Steam Deck Launcher - Update")
