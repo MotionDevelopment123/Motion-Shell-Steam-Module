@@ -1,6 +1,7 @@
 @ECHO OFF
 CD C:\"Steam Deck Launcher"
 set /p STEAMLOCATION=<STEAM.LOCATION
+START C:\"Steam Deck Launcher"\Update\Updater.exe
 START /WAIT %STEAMLOCATION% -noverifyfiles -gamepadui
 set /p CLOSEDLOCATION=<CLOSED.LOCATION
 START %CLOSEDLOCATION%
