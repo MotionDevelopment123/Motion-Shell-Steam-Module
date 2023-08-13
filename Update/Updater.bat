@@ -1,10 +1,10 @@
 @ECHO OFF
+CD C:\"Steam Deck Launcher"\Update
 set /p IVersion=<INSTALLED.VERSION
 @ECHO Steam Deck Launcher - Updater
 @ECHO Current version installed: %IVersion%
 @ECHO Checking for updates...
 @ECHO OFF
-CD C:\"Steam Deck Launcher"\Update
 curl.exe -o LATEST.VERSION https://raw.githubusercontent.com/MotionDevelopment123/SDL/STABLE-VERSION/Update/LATEST.VERSION
 set /p LVERSION=<LATEST.VERSION
 IF %IVersion%==%LVERSION% (goto END) else (goto Update) 
