@@ -1,7 +1,7 @@
 @ECHO OFF
 set /p IVersion=<INSTALLED.VERSION
 @ECHO Steam Deck Launcher - Updater
-Current version installed: %IVersion%
+@ECHO Current version installed: %IVersion%
 @ECHO Checking for updates...
 @ECHO OFF
 CD C:\"Steam Deck Launcher"\Update
