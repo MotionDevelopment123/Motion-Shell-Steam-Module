@@ -4,7 +4,7 @@ SDL can be used to replace the Windows Shell with the new big picture mode from 
 
 ### Features
 - Launch directly into Steam's new big picture mode when signing into PC account
-- Change what happens when you close Steam, default action is set to `Windows Shell`, can be used to logout by setting to `SHUTDOWN -L`. More information in the [FAQ](###FAQ).
+- Change what happens when you close Steam, default action is set to `Windows Shell`, can be used to logout by setting to `SHUTDOWN -L`. More information in the [FAQ](#FAQ).
 
 ### WARNING!
 This will modify a registry key, when installing ensure your using a secondary profile (**NEVER USE THE ONLY PC PROFILE ALWAYS CREATE A SEPERATE ONE!**).
