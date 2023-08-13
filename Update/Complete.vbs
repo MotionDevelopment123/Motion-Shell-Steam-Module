@@ -1,1 +1,0 @@
-x=msgbox("Update complete, Click ok to restart SDL" ,64, "Steam Deck Launcher - Update")
