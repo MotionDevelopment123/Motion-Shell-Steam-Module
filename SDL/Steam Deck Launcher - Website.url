@@ -5,4 +5,6 @@ IDList=
 URL=https://sites.google.com/view/steam-deck-launcher
 IconIndex=0
 HotKey=0
-IconFile=C:\Steam Deck Launcher\SDL.ico
+IconFile=C:\Steam Deck Launcher\ICON.ico
+[{5CBF2787-48CF-4208-B90E-EE5E5D420294}]
+Prop21=31, Find the latest information and updates about SDL
