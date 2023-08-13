@@ -9,7 +9,7 @@ SDL can be used to replace the Windows Shell with the new big picture mode from 
 ### WARNING!
 This will modify a registry key, when installing ensure your using a secondary profile (**NEVER USE THE ONLY PC PROFILE ALWAYS CREATE A SEPERATE ONE!**).
 
-###FAQ
+### FAQ
 1. How to change what happens when I close Steam?
    >Go to `C:\Steam Deck Launcher\` and open `CLOSED.LOCATION` with a text editor such as Notepad (Included with windows) or [Notepad++](https://notepad-plus-plus.org/). To use other programs paste the full location to the `.EXE` file.
 
