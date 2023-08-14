@@ -34,8 +34,7 @@ SolidCompression=yes
 WizardStyle=modern
 
 [Registry]
-Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; ValueType: string; ValueName: "shell"; ValueData: "C:\Steam Deck Launcher\SDL.exe"
-Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; ValueType: string; ValueName: "shell"; ValueData: "C:\Steam Deck Launcher\SDL.exe"; Flags: uninsdeletevalue
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
