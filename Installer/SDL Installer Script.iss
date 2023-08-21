@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Steam Deck Launcher"
-#define MyAppVersion "3.0.0.2"
+#define MyAppVersion "3.5.0.0"
 #define MyAppPublisher "Motion Development"
 #define MyAppURL "https://sites.google.com/view/steam-deck-launcher/"
 #define MyAppUpdatesURL "https://github.com/MotionDevelopment123/SDL/releases/latest" 
@@ -38,7 +38,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
 Source: "C:\Shared Folder\GitHub\SDL\SDL\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Shared Folder\GitHub\SDL\Updater\*"; DestDir: "{app}\Update"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Shared Folder\GitHub\SDL\Updater\*"; DestDir: "{app}\Updater"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\Shared Folder\GitHub\SDL\Installer\Website Shortcuts\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
