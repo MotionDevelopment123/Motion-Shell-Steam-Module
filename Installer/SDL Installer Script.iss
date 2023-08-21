@@ -27,21 +27,26 @@ InfoAfterFile=C:\Shared Folder\GitHub\SDL\Installer\SETUP\COMPLETE.rtf
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 OutputDir=C:\Shared Folder
-OutputBaseFilename=SDL Installer 3.0.0.2
+OutputBaseFilename=SDL Installer 3.5.0.0
 SetupIconFile=C:\Shared Folder\GitHub\SDL\SDL\ICON.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
-
-[Registry]
-Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; ValueType: string; ValueName: "shell"; ValueData: "C:\Steam Deck Launcher\SDL.exe"; Flags: uninsdeletevalue
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
 Source: "C:\Shared Folder\GitHub\SDL\SDL\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Shared Folder\GitHub\SDL\Update\*"; DestDir: "{app}\Update"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Shared Folder\GitHub\SDL\Updater\*"; DestDir: "{app}\Update"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\Shared Folder\GitHub\SDL\Installer\Website Shortcuts\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
+[Registry]
+Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; ValueType: string; ValueName: "shell"; ValueData: "C:\Steam Deck Launcher\SDL.exe"; Flags: uninsdeletevalue
+
+[Run]
+Filename: "C:\Steam Deck Launcher\Updater\Updater.bat"; Flags: shellexec
+
+[UninstallDelete]
+Type: filesandordirs; Name: "C:\Steam Deck Launcher"

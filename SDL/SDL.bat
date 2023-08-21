@@ -4,6 +4,6 @@ set /p STEAMLOCATION=<STEAM.LOCATION
 START /WAIT %STEAMLOCATION% -noverifyfiles -gamepadui
 set /p CLOSEDLOCATION=<CLOSED.LOCATION
 START %CLOSEDLOCATION%
-CD C:\"Steam Deck Launcher"\Update
+CD C:\"Steam Deck Launcher"\Updater
 START Updater.BAT
 EXIT
