@@ -6,4 +6,5 @@ set /p CLOSEDLOCATION=<CLOSED.LOCATION
 START %CLOSEDLOCATION%
 CD C:\"Steam Deck Launcher"\Updater
 START Updater.BAT
+
 EXIT
