@@ -1,2 +1,0 @@
-Start /wait Notepad.exe
-START INSTALLEDVERSION.VBS
