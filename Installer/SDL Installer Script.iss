@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Steam Deck Launcher"
-#define MyAppVersion "3.5.0.0"
+#define MyAppVersion "3.5.1.0"
 #define MyAppPublisher "Motion Development"
 #define MyAppURL "https://sites.google.com/view/steam-deck-launcher/"
 #define MyAppUpdatesURL "https://github.com/MotionDevelopment123/SDL/releases/latest" 
@@ -27,7 +27,7 @@ InfoAfterFile=C:\Shared Folder\GitHub\SDL\Installer\SETUP\COMPLETE.rtf
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 OutputDir=C:\Shared Folder
-OutputBaseFilename=SDL Installer 3.5.0.0
+OutputBaseFilename=SDL Installer 3.5.1.0
 SetupIconFile=C:\Shared Folder\GitHub\SDL\SDL\ICON.ico
 Compression=lzma
 SolidCompression=yes
