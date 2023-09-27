@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Steam Deck Launcher"
-#define MyAppVersion "3.5.1.0"
+#define MyAppVersion "3.6.0.0"
 #define MyAppPublisher "Motion Development"
 #define MyAppURL "https://sites.google.com/view/steam-deck-launcher/"
 #define MyAppUpdatesURL "https://github.com/MotionDevelopment123/SDL/releases/latest" 
@@ -26,8 +26,8 @@ InfoBeforeFile=C:\Shared Folder\GitHub\SDL\Installer\SETUP\SETUPINFO.rtf
 InfoAfterFile=C:\Shared Folder\GitHub\SDL\Installer\SETUP\COMPLETE.rtf
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputDir=C:\Shared Folder
-OutputBaseFilename=SDL Installer 3.5.1.0
+OutputDir=C:\Shared Folder\GitHub\SDL\Installer\OUTPUT
+OutputBaseFilename=SDL Installer {#MyAppVersion}
 SetupIconFile=C:\Shared Folder\GitHub\SDL\SDL\ICON.ico
 Compression=lzma
 SolidCompression=yes
@@ -38,15 +38,15 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
 Source: "C:\Shared Folder\GitHub\SDL\SDL\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Shared Folder\GitHub\SDL\Updater\*"; DestDir: "{app}\Updater"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Shared Folder\GitHub\SDL\Installer\Website Shortcuts\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Shared Folder\GitHub\SDL\Installer\Website Shortcuts\*"; DestDir: "{app}\Shortcuts"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Shared Folder\GitHub\SDL\Installer\Installer\*"; DestDir: "{app}\Installer"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
 Root: HKCU; Subkey: "Software\Microsoft\Windows NT\CurrentVersion\Winlogon"; ValueType: string; ValueName: "shell"; ValueData: "C:\Steam Deck Launcher\SDL.exe"; Flags: uninsdeletevalue
 
 [Run]
-Filename: "C:\Steam Deck Launcher\Updater\Updater.bat"; Flags: shellexec
+Filename: "C:\Steam Deck Launcher\Installer\Installer.vbs"; Flags: shellexec
 
 [UninstallDelete]
 Type: filesandordirs; Name: "C:\Steam Deck Launcher"
