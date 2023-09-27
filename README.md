@@ -5,7 +5,7 @@ SDL can be used to replace the Windows Shell with the new big picture mode from 
 ### Features
 - Launch directly into Steam's new big picture mode when signing into PC account
 - Change what happens when you close Steam
-- Auto Updater
+- relaunch to SDL mode from the desktop without having to log out and back in
 
 ### WARNING!
 This will modify a registry key, when installing ensure your using a secondary profile (**NEVER USE THE ONLY PC PROFILE ALWAYS CREATE A SEPERATE ONE!**).
