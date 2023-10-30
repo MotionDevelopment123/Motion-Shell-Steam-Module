@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Steam Deck Launcher"
-#define MyAppVersion "3.6.0.0"
+#define MyAppVersion "4.0.0.0"
 #define MyAppPublisher "Motion Development"
 #define MyAppURL "https://sites.google.com/view/steam-deck-launcher/"
 #define MyAppUpdatesURL "https://github.com/MotionDevelopment123/SDL/releases/latest" 
