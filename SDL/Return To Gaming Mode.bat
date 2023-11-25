@@ -1,4 +1,4 @@
-CD C:\"Steam Deck Launcher"
+CD C:\Motion-Shell\Steam
 taskkill /f /im Steam.exe
 taskkill /f /im explorer.exe
 START SDL.exe

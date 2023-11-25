@@ -1,5 +1,5 @@
 @ECHO OFF
-CD C:\"Steam Deck Launcher"
+CD C:\Motion-Shell\Steam
 set /p STEAMLOCATION=<STEAM.LOCATION
 START /WAIT %STEAMLOCATION% -noverifyfiles -gamepadui
 set /p CLOSEDLOCATION=<CLOSED.LOCATION
